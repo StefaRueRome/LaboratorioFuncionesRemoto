@@ -7,7 +7,9 @@ def a_power_b(a,b):
 	
 	return prod
 
-a=int(input("Ingrese la base: "))
-b=int(input("Ingrese la potencia: "))
-
-print(a_power_b(a,b))
+while True:
+	a=int(input("Ingrese la base: "))
+	b=int(input("Ingrese la potencia: "))
+	print(a_power_b(a,b))
+	if a==0:
+		break
