@@ -1,4 +1,4 @@
-def perfect_number(n):
+def almost_perfect_number(n):
 	div=0
 	for i in range(1,n):
 		while n%i==0:
@@ -11,4 +11,4 @@ def perfect_number(n):
 
 n=int(input("Ingrese un número: "))
 
-perfect_number(n)
+almost_perfect_number(n)
